@@ -15,3 +15,9 @@ publicly shame myself until I learn and become git fluent.
 git commit --amend
 git push --force-with-lease
 ~~~
+
+### Delete all local commits and start fresh from origin version
+
+~~~
+git reset --hard origin/master
+~~~
